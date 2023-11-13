@@ -13,6 +13,12 @@ let regularPrice = kilometers * 0.21;
 
 console.log(regularPrice);
 
+// Validare i miei dati
+
+if (isNaN(kilometers) || isNaN(age)) {
+    alert("Mi dispiace non hai inserito entrambi dei numeri!")
+} 
+
 
 // APPLICA UNO SCONTO DEL 20% PER I MINORENNI e 40% per gli over 65
 
